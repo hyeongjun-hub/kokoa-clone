@@ -1,51 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap");
 @import "reset.css";
-@import "status-bar.css";
 @import "variable.css";
+
+/* Components */
+@import "components/status-bar.css";
+
+/* Screens */
+@import "screens/login.css";
 
 body {
   font-family: "Open Sans", sans-serif;
-}
-
-.welcome-header {
-  display: flex;
-  margin: 90px 0px;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
-  font-weight: 700;
-}
-
-.welcome-header__title {
-  margin-bottom: 25px;
-  font-size: 25px;
-}
-
-.welcome-header__text {
-  display: flex;
-  width: 50%;
-  opacity: 0.7;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 30px;
-}
-
-#login-form input {
-  border: none;
-  padding: 15px 5px;
-  font-size: 18px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin-bottom: 25px;
-  transition: border-color 0.3s ease-in-out;
-}
-
-#login-form input::placeholder {
-  opacity: 0.6;
-}
-
-#login-form input:focus {
-  border-color: var(--yellow);
 }

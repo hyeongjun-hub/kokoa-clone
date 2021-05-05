@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to KoKoa Clone</title>
+    <title>Welcome to Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -29,12 +29,16 @@
         </p>
       </header>
 
-      <form id="login-form">
-        <input type="text" placeholder="Email or phone number" />
-        <input type="password" placeholder="Password" />
+      <form action="friends.html" method="get" id="login-form">
+        <input
+          name="username"
+          type="text"
+          placeholder="Email or phone number"
+        />
+        <input name="password" type="password" placeholder="Password" />
         <input type="submit" value="Log In" />
+        <a href="#">Find Kokoa Account and Password</a>
       </form>
-      <a href="#">Find KoKoa Account and Password</a>
     </div>
 
     <script
