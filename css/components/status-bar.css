@@ -1,7 +1,11 @@
 .status-bar {
+  position: fixed;
+  top: 0;
   display: flex;
-  justify-content: center;
+  width: 100%;
   padding: 5px 3px;
+  justify-content: center;
+  align-items: center;
 }
 .status-bar__column {
   width: 33%;
