@@ -14,6 +14,7 @@
 }
 
 .nav__link {
+  padding-right: 5px;
   position: relative;
   color: #2e363e;
 }
@@ -22,15 +23,4 @@
   position: absolute;
   left: 15px;
   bottom: 15px;
-}
-
-.nav__dot {
-  background-color: tomato;
-  display: flex;
-  border-radius: 50%;
-  width: 6px;
-  height: 6px;
-  position: absolute;
-  left: 30px;
-  bottom: 30px;
 }

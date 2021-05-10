@@ -1,0 +1,10 @@
+.dot {
+  background-color: tomato;
+  display: flex;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  right: 0px;
+  bottom: 30px;
+}
